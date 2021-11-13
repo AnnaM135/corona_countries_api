@@ -1,0 +1,27 @@
+.country-list{
+    padding: 20px 50px;
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 2px 3px 8px lightgrey;
+}
+.country-list:hover{
+    cursor: pointer;
+    border: 2px solid rgb(30, 30, 90);
+    box-shadow: 4px 5px 10px rgb(90, 67, 67);
+
+}
+
+.country_search{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+   
+
+}
+
+.country_search-input{
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    padding: 15px 80px;
+}
