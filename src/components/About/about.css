@@ -1,15 +1,26 @@
-.country-list{
+.country_list{
     padding: 20px 50px;
     border: 2px solid lightgrey;
     border-radius: 15px;
     margin: 10px;
     box-shadow: 2px 3px 8px lightgrey;
 }
-.country-list:hover{
+.country_list:hover{
     cursor: pointer;
     border: 2px solid rgb(30, 30, 90);
     box-shadow: 4px 5px 10px rgb(90, 67, 67);
 
+}
+
+.contry_list-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.contry_list-link:hover{
+    color: rgb(66, 24, 24);
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 .country_search{
